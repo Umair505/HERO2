@@ -1,0 +1,12 @@
+setup-> tsc --init
+in tsconfig.json file find rootDir uncomment it and write src
+  "outDir": "./dist",  
+
+Basic Setup for run
+npm init -y
+npm i -D ts-node-dev
+in packet.json scripts we have to add this
+npm init -y
+"dev": ts-node-dev --respawn --transpile-only test.ts
+
+create .gitignore file and add node_modules very important and best practice
