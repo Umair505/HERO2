@@ -1,4 +1,5 @@
 import { Tobj } from "./basic_data_type";
+import { fn } from "./function";
 
 const test: string = "Moinul Islam";
 console.log(test);
@@ -6,9 +7,5 @@ console.log(test);
 const tObj2 : Tobj ={
     name: "Satyam Bhai",
     age: 21,
-    education: {
-        university:"East Delta" ,
-        level: "Undergrad"
-    }
 }
-console.log(tObj2);
+console.log(fn(2));

@@ -9,8 +9,8 @@ let arr : number[] =[1,2,3,4,5];
 export type Tobj={
     name:string
     age: number
-    education:{
-        university: string
+    education?:{
+        university: "University" | "College" | "Diploma"  //This is  basically union type
         level:string
     }
 }
